@@ -24,7 +24,7 @@ section{
 }
 
 .bg-curved-2{
-padding-top: 2%; 
+padding-top: 2%;
 }
 
 
@@ -395,21 +395,17 @@ display: flex;
     padding: 0;
     display: flex;
     justify-content: center;
-
-
 }
 
 .footer{
-
-
-
+  padding-bottom: 20%;
+  background-color: #a1cce0;
 }
 .footer-info{
   padding-top: 8%;
   font-size: 35px;
   font-family: 'Open Sans', sans-serif;
   font-weight:400;
-
 }
 
 #txt-footer-2{
@@ -422,7 +418,7 @@ display: flex;
 }
 
 .footer-info-2{
-  padding-top: 5%;
+  padding-top: 15%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 120px;
@@ -430,18 +426,12 @@ display: flex;
 
 }
 
-#footer-header-1{
-  font-weight: bold;
-  text-shadow: 0px 1px 2px black;
-  font-size: 40px;
-
-}
-
-#footer-header-2{
+.footer-header-1{
   font-weight: bold;
   text-shadow: 0px 1px 2px black;
   font-size: 40px;
 }
+
 
 #footer-header-3{
   font-size: 20px;
@@ -496,6 +486,20 @@ display: flex;
 }
 
 @media only screen and (max-width:1120px) {
+/*---------footer*------------*/
+  .footer-info{
+    padding-top: 8%;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+  }
+
+
+  .footer-header-1{
+    font-weight: bold;
+    text-shadow: 0px 1px 2px black;
+    font-size: 35px;
+  }
   /*----------PAGE 2----------*/
   #txt_pg2{
 
@@ -554,6 +558,20 @@ display: flex;
 
 @media only screen and (max-width:920px) {
 
+  /*---------footer*------------*/
+    .footer-info{
+      padding-top: 8%;
+      font-size: 25px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight:400;
+    }
+
+    .footer-header-1{
+      font-weight: bold;
+      text-shadow: 0px 1px 2px black;
+      font-size: 30px;
+    }
+/*---------footer End------------*/
 
   /*----------PAGE 1 IMAGE--------*/
 
@@ -612,6 +630,21 @@ display: flex;
 
 @media only screen and (max-width:850px) {
 
+  /*---------footer*------------*/
+    .footer-info{
+      padding-top: 8%;
+      font-size: 25px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight:400;
+    }
+
+    .footer-header-1{
+      font-weight: bold;
+      text-shadow: 0px 1px 2px black;
+      font-size: 30px;
+    }
+/*---------footer End------------*/
+
   .arrow_area{
     padding-top: 5%;
   }
@@ -638,14 +671,75 @@ display: flex;
 }
 
 @media only screen and (max-width:820px) {
+
+  /*---------footer*------------*/
+    .footer-info{
+      padding-top: 8%;
+      font-size: 20px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight:400;
+    }
+
+    .footer-header-1{
+      font-weight: bold;
+      text-shadow: 0px 1px 2px black;
+      font-size: 30px;
+    }
+
+
+    .footer-holder{
+        background-color: #a1cce0;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    #txt-footer-2{
+      padding-top: 2%;
+    }
+
+    .footer-center{
+      display: flex;
+      justify-content: center;
+    }
+
+    .footer-info-2{
+      padding-top: 5%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 70px;
+      grid-template-rows: 100px;
+
+    }
+
+
+    .footer-mainttext{
+      font-size: 18px;
+      padding-top: 10%;
+      font-weight: lighter;
+      display: grid;
+    }
+
+    .footer-mainttext-2{
+      font-size: 18px;
+      padding-top: 10%;
+      font-weight: lighter;
+      display: grid;
+    }
+
+/*---------footer End------------*/
+
+
   /*----------PAGE 1 IMAGE--------*/
 
   .page1_image{
-    background-image: url(images/1.jpg);
+  /*  background-image: url(images/1.jpg);
     height: 400px;
     width: 100%;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100%;*/
   }
   #page1_image_txt1{
     font-family: helvetica;
@@ -689,10 +783,68 @@ display: flex;
 
 }
 
+
+
 @media only screen and (max-width:695px) {
 
+  /*---------footer*------------*/
+    .footer-info{
+      padding-top: 8%;
+      font-size: 18px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight:400;
+    }
+
+    .footer-header-1{
+      font-weight: bold;
+      text-shadow: 0px 1px 2px black;
+      font-size: 25px;
+    }
 
 
+    .footer-holder{
+        background-color: #a1cce0;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    #txt-footer-2{
+      padding-top: 2%;
+    }
+
+    .footer-center{
+      display: flex;
+      justify-content: center;
+    }
+
+    .footer-info-2{
+      padding-top: 15%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 50px;
+      grid-template-rows: 100px;
+
+    }
+
+
+    .footer-mainttext{
+      font-size: 16px;
+      padding-top: 10%;
+      font-weight: lighter;
+      display: grid;
+    }
+
+    .footer-mainttext-2{
+      font-size: 16px;
+      padding-top: 10%;
+      font-weight: lighter;
+      display: grid;
+    }
+
+  /*---------footer End------------*/
 
   /*------------------NEW NAVBAR----------------*/
 
