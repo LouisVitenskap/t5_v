@@ -1044,7 +1044,7 @@ span{
     padding-top: 15%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 20px;
+    grid-column-gap: 12px;
     grid-template-rows: 100px;
 
   }
